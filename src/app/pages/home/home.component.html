@@ -1,0 +1,10 @@
+<div class="home__container">
+    <div *ngFor="let card of cards">
+        <app-card
+        [gameCover]="card.gameCover"
+		[gameLabel]="card.gameLabel"
+		[gameType]="card.gameType"
+		[gamePrice]="card.gamePrice"
+        ></app-card>
+    </div>
+</div>
