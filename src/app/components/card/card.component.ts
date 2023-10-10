@@ -13,6 +13,6 @@ import { CardPricingComponent } from './card-pricing/card-pricing.component';
 export class CardComponent {
   @Input() gameCover: string = ''
 	@Input() gameLabel: string = ''
-	@Input() gameType: string = 'XPTO | PS4'
-	@Input() gamePrice: string = 'R$ 399,90'
+	@Input() gameType: string = ''
+	@Input() gamePrice: string = ''
 }
